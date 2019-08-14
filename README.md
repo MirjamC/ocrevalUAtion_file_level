@@ -1,5 +1,5 @@
 # OcrevalUAtion: evaluation of a batch on file level
-This notebook provides a simple script to run the ocrevalUAtion tool automaticly trough a batch of files. Where the outcome provided by the tool itself is a total number for each category for the complete batch, this code provided an outcome on file level. The output is a .csv file, with for every file the 'CER', 'WER' and 'WER (order independent)' scores after comparison with the Ground Truth file. 
+This notebook provides a simple script to run the ocrevalUAtion tool (see: https://github.com/impactcentre/ocrevalUAtion) automaticly trough a batch of files. Where the outcome provided by the tool itself is a total number for each category for the complete batch, this code provided an outcome on file level. The output is a .csv file, with for every file the 'CER', 'WER' and 'WER (order independent)' scores after comparison with the Ground Truth file. 
 
 This code is written for files with a filename in this format: **"idenitifier_pagenr_type.extension"**
 
